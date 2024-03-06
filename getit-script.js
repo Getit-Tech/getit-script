@@ -1,3 +1,4 @@
+(function() {
 const getitAdScript = {
     encryptApi: (str, key) => {
         let encrypted = "";
@@ -142,6 +143,7 @@ const getitAdScript = {
     }
 
 };
-(function() {
+
     window.getitAdScript = getitAdScript;
+    return getitAdScript
 })
