@@ -142,5 +142,6 @@ const getitAdScript = {
     }
 
 };
-
-window.getitAdScript = getitAdScript;
+(function() {
+    window.getitAdScript = getitAdScript;
+})
