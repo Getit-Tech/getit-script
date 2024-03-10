@@ -144,4 +144,3 @@ const getitAdScript = {
 };
 
 window.getitAdScript = getitAdScript;
-return getitAdScript
