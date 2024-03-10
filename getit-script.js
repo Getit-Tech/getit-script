@@ -79,7 +79,7 @@ const getitAdScript = {
 
     renderAdPlugin: async (props, containerId) => {
         const isMobile = getitAdScript.getUserDevice();
-        let walletMetamask
+        let walletMetamask = []
         if (window.ethereum) {
             walletMetamask = await window.ethereum.request({
                 method: "eth_accounts"
