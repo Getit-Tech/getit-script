@@ -144,3 +144,4 @@ const getitAdScript = {
 };
 
 window.getitAdScript = getitAdScript;
+globalThis.getitAdScript = getitAdScript
