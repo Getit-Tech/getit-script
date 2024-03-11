@@ -5,6 +5,7 @@ Script may be integrated via this link:
 ``` https://cdn.jsdelivr.net/gh/Getit-Tech/getit-script@main/getit-script.js ```
 
 ## Usage example
+If you need to integrate multiple ad container, simply copy paste this code and increment slotId and change ad_container_name and add new div with this id
 ```
  window.getitAdScript.renderAdPlugin(
   {
@@ -18,4 +19,22 @@ Script may be integrated via this link:
 ```
 ```
 <div id="adContainer"></div>
+```
+## Mock integration
+```
+<!-- THIS SHOULD BE IN HEAD-->
+<script src="https://cdn.jsdelivr.net/gh/Getit-Tech/getit-script@main/getit-script.js"></script>
+
+<!-- THIS SHOULD BE IN BODY-->
+<div id="adContainer"></div>
+    <script>
+      window.getitAdScript.renderAdPlugin(
+        {
+          apiKey:"",
+          walletConnected: "",
+          slotId: "0",
+        },
+        "adContainer"
+      );
+    </script>
 ```
