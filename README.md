@@ -27,14 +27,14 @@ If you need to integrate multiple ad container, simply copy paste this code and 
 
 <!-- THIS SHOULD BE IN BODY-->
 <div id="adContainer"></div>
-    <script>
-      window.getitAdScript.renderAdPlugin(
-        {
-          apiKey:"",
-          walletConnected: "",
-          slotId: "0",
-        },
-        "adContainer"
-      );
-    </script>
+ <script>
+   window.getitAdScript.renderAdPlugin(
+     {
+       apiKey:"",
+       walletConnected: "",
+       slotId: "0",
+     },
+     "adContainer"
+   );
+ </script>
 ```
