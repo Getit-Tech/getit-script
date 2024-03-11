@@ -1,4 +1,4 @@
-# Scrit integration guide
+# Script integration guide
 
 ## Link
 Script may be integrated via this link:
